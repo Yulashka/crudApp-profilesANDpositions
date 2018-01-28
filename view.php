@@ -54,7 +54,7 @@
 				<p>Last Name: <?php echo($ln); ?> </p>
 				<p>Email: <?php echo($ema); ?> </p>
 				<p>Headline: <?php echo($he); ?> </p>
-				<p>Summary: <?php echo(htmlentities($profile['headline'])); ?> </p>
+				<p>Summary: <?php echo($su); ?> </p>
 				<p>Position: </p>
 				<ul>
 					<?php
